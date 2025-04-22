@@ -1,1 +1,8 @@
 /* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#ffffff, #cffcf1, to right);
+  background-size: cover;
+  height: 100vh;
+  flex: column;
+  justify-content: center;
+}
