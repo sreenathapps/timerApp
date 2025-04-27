@@ -124,15 +124,15 @@ class DigitalTimer extends Component {
                 <button
                   type="button"
                   onClick={this.decreaseTimer}
-                  disabled={isStarted}
+                  data-testid="decrease-timer"
                 >
                   -
                 </button>
-                <p>{Math.floor(timeInSeconds / 60)} mins</p>
+                <p>{`${Math.floor(timeInSeconds / 60)}:00`}</p>
                 <button
                   type="button"
                   onClick={this.increaseTimer}
-                  disabled={isStarted}
+                  data-testid="increase-timer"
                 >
                   +
                 </button>
