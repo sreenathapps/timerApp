@@ -1,8 +1,71 @@
 /* Write your CSS here */
 .bg-container {
-  background-image: linear-gradient(#ffffff, #cffcf1, to right);
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
   background-size: cover;
   height: 100vh;
-  flex: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 50%;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-heading {
+  font-size: 2em;
+}
+.timer {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  margin: 5px;
+}
+.clock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.time {
+  background-color: #ffffff;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.time-value {
+  color: #00d9f5;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.buttons {
+  display: flex;
+  padding: 5px;
+}
+button {
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.btn-icon {
+  width: 25%;
 }
